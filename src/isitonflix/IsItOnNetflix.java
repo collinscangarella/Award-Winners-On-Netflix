@@ -30,7 +30,7 @@ public class IsItOnNetflix {
 		
 		BufferedWriter writer = null;
         try {
-            File file = new File("/Users/collinscangarella/Desktop/awardwinners.xls");
+            File file = new File(System.getProperty("user.home") + "/AwardWinnersOnNetflix.xls");
             writer = new BufferedWriter(new FileWriter(file));
 			writer.write("Movie \t Url \t Event \t Year \t Category \t Honor \t Won \n");
 			for (Movie m : movies){
