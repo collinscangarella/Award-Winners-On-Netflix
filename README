@@ -1,5 +1,6 @@
 This little java console app checks IMDB event pages against isitoninstant.com to see 
 if any winners from film festivals and competitions that are currently streaming on netflix.
+It outputs everything into a text file (in the user's home dir) formatted to be opened in excel.
 
 It currently checks 2010-2014 winners and nominees from the following:
 * Academy Awards
