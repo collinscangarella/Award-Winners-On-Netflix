@@ -1,4 +1,5 @@
-This little java console app checks IMDB event pages against isitoninstant.com to see if any winners from film festivals and competitions that are currently streaming on netflix.
+This little java console app checks IMDB event pages against isitoninstant.com to see 
+if any winners from film festivals and competitions that are currently streaming on netflix.
 
 It currently checks 2010-2014 winners and nominees from the following:
 * Academy Awards
@@ -17,5 +18,6 @@ It's quite easy to add/remove new awards/years but the code must be recompiled.
 
 Some limitations and gochas:
 * I didn't bother handling non-ascii characters
-* I use GET requests on isitoninstant.com instead of POST requests, sometimes the site doesn't respond well (typically with those non-ascii characters.
+* I use GET requests on isitoninstant.com instead of POST requests, 
+sometimes the site doesn't respond well (typically with those non-ascii characters.
 * It doesn't check meta data or years to make sure that there isn't a movie with the same name on netflix.
