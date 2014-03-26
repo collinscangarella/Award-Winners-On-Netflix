@@ -16,7 +16,5 @@ It currently checks 2010-2014 winners and nominees from the following:
 It's quite easy to add/remove new awards/years but the code must be recompiled.
 
 Some limitations and gochas:
-* I use GET requests on isitoninstant.com instead of POST requests, sometimes the site doesn't respond well (typically with non alphanumeric characters).
 * It doesn't check meta data or years to make sure that there isn't a different movie with the same name on netflix.
-* The regex and HTML parsing is hobbled at best and will likely break with any signaficant change to either of the sites.
 * It's single threaded (I didn't want to be rude to IMDB or isitstreaming) and has to make a bunch of requests so it's on the slower side.
